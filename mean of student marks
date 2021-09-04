@@ -1,0 +1,29 @@
+
+print("Marks of 10 student is :")
+marks = [38, 41, 36, 31, 45, 38, 27, 32, 29, 39]
+print(marks)
+
+total=0
+
+for i in marks:
+    total += i
+print("----------------------------------------")
+print("Mean of marks :",(total/10))
+
+total=0
+for i in marks:
+    total += i+2
+print("----------------------------------------")
+print("Mean of marks when marks of each student are increased by 2 is :",(total/10))
+
+total=0
+for i in marks:
+    total += i-1
+print("----------------------------------------")
+print("Mean of marks when one mark is deducted from marks of each student :",(total/10))
+
+total=0
+for i in marks:
+    total += i/2
+print("----------------------------------------")
+print("Mean of marks when the marks of each student halved :",(total/10))
